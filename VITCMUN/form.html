@@ -2,9 +2,9 @@
 <html>
 <head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<link rel="stylesheet" href="demo.css">
-<link rel="stylesheet" href="form-labels-on-top.css">
-<link rel="stylesheet" href="scrollbar.css">
+<link rel="stylesheet" href="CSS/demo.css">
+<link rel="stylesheet" href="CSS/form-labels-on-top.css">
+<link rel="stylesheet" href="CSS/scrollbar.css">
 <meta charset="utf-8">
 <title>vote2 module</title>
 </head>
@@ -17,120 +17,64 @@
         <form class="form-labels-on-top" method="POST">
 	      <h3><b>European Council</b></h3>
 			<div align="left">
-			<b>Q1. Which is your favourite place?</b><br>
-			<input type="radio" name="ansq1_1EC" value="Prague" checked>Prague<br>
-			<input type="radio" name="ansq1_2EC" value="Venice">Venice<br>
-			<input type="radio" name="ansq1_3EC" value="Prague">London<br>
-			<b>Q2. Who is your favourite hollywood actor?</b><br>
-			<input type="radio" name="ansq2_1EC" value="Al Pacino" checked>Al Pacino<br>
-			<input type="radio" name="ansq2_2EC" value="Robert Downey Jr.">Robert Downey Jr.<br>
-			<input type="radio" name="ansq2_3EC" value="Bradley Cooper">Bradley Cooper<br>
-			<b>Q3. Which is your favourite street food?</b><br>
-			<input type="radio" name="ansq3_1EC" value="Hot Dog" checked>Hot Dog<br>
-			<input type="radio" name="ansq3_2EC" value="Bhel puri">Bhel Puri<br>
-			<input type="radio" name="ansq3_3EC" value="Vada Pav">Vada Pav<br>
+				<h4><b>Select your Agenda</b></h4><br>
+			<input type="radio" name="ans_1EC" value="Agenda 1EC" checked>Agenda 1EC<br>
+			<input type="radio" name="ans_1EC" value="Agenda 2EC">Agneda 2EC<br>
+			<input type="radio" name="ans_1EC" value="Agenda 3EC">Agenda 3EC<br>
 			</div>
 			<br>
 			<br>
 		  <h3><b>United Nations Commission on the Status of Women</b></h3>
 			<div align="left">
-			<b>Q1. Which is your favourite place?</b><br>
-			<input type="radio" name="ansq1_1UNCSW" value="Prague" checked>Prague<br>
-			<input type="radio" name="ansq1_2UNCSW" value="Venice">Venice<br>
-			<input type="radio" name="ansq1_3UNCSW" value="Prague">London<br>
-			<b>Q2. Who is your favourite hollywood actor?</b><br>
-			<input type="radio" name="ansq2_1UNCSW" value="Al Pacino" checked>Al Pacino<br>
-			<input type="radio" name="ansq2_2UNCSW" value="Robert Downey Jr.">Robert Downey Jr.<br>
-			<input type="radio" name="ansq2_3UNCSW" value="Bradley Cooper">Bradley Cooper<br>
-			<b>Q3. Which is your favourite street food?</b><br>
-			<input type="radio" name="ansq3_1UNCSW" value="Hot Dog" checked>Hot Dog<br>
-			<input type="radio" name="ansq3_2UNCSW" value="Bhel puri">Bhel Puri<br>
-			<input type="radio" name="ansq3_3UNCSW" value="Vada Pav">Vada Pav<br>
+			<b><h4>Select your Agenda</h4></b><br>
+			<input type="radio" name="ans_1UNSCW" value="Agenda 1UNSCW" checked>Agenda 1UNSCW<br>
+			<input type="radio" name="ans_1UNCSW" value="Agenda 2UNSCW">Agenda 2UNSCW<br>
+			<input type="radio" name="ans_3UNCSW" value="Agenda 3UNSCW">Agenda 3UNSCW<br>
 			</div>
 			<br>
 			<br>
 		  <h3><b>All India Political Parties Meet</b></h3>
 			<div align="left">
-			<b>Q1. Which is your favourite place?</b><br>
-			<input type="radio" name="ansq1_1AIPPM" value="Prague" checked>Prague<br>
-			<input type="radio" name="ansq1_2AIPPM" value="Venice">Venice<br>
-			<input type="radio" name="ansq1_3AIPPM" value="Prague">London<br>
-			<b>Q2. Who is your favourite hollywood actor?</b><br>
-			<input type="radio" name="ansq2_1AIPPM" value="Al Pacino" checked>Al Pacino<br>
-			<input type="radio" name="ansq2_2AIPPM" value="Robert Downey Jr.">Robert Downey Jr.<br>
-			<input type="radio" name="ansq2_3AIPPM" value="Bradley Cooper">Bradley Cooper<br>
-			<b>Q3. Which is your favourite street food?</b><br>
-			<input type="radio" name="ansq3_1AIPPM" value="Hot Dog" checked>Hot Dog<br>
-			<input type="radio" name="ansq3_2AIPPM" value="Bhel puri">Bhel Puri<br>
-			<input type="radio" name="ansq3_3AIPPM" value="Vada Pav">Vada Pav<br>
+			<b><h4>Select your Agenda</h4></b><br>
+			<input type="radio" name="ans_1AIPPM" value="Agenda 1AIPPM" checked>Agenda 1AIPPM<br>
+			<input type="radio" name="ans_1AIPPM" value="Agenda 2AIPPM">Agenda 2AIPPM<br>
+			<input type="radio" name="ans_1AIPPM" value="Agenda 3AIPPM">Agenda 3AIPPM<br>
 			</div>
 			<br>
 			<br>
 			<h3><b>Disarmament and International Security</b></h3>
 			<div align="left">
-			<b>Q1. Which is your favourite place?</b><br>
-		  <input type="radio" name="ansq1_1DISEC" value="Prague" checked>Prague<br>
-		  <input type="radio" name="ansq1_2DISEC" value="Venice">Venice<br>
-		  <input type="radio" name="ansq1_3DISEC" value="Prague">London<br>
-			<b>Q2. Who is your favourite hollywood actor?</b><br>
-		  <input type="radio" name="ansq2_1DISEC" value="Al Pacino" checked>Al Pacino<br>
-		  <input type="radio" name="ansq2_2DISEC" value="Robert Downey Jr.">Robert Downey Jr.<br>
-		  <input type="radio" name="ansq2_3DISEC" value="Bradley Cooper">Bradley Cooper<br>
-			<b>Q3. Which is your favourite street food?</b><br>
-		  <input type="radio" name="ansq3_1DISEC" value="Hot Dog" checked>Hot Dog<br>
-		  <input type="radio" name="ansq3_2DISEC" value="Bhel puri">Bhel Puri<br>
-		  <input type="radio" name="ansq3_3DISEC" value="Vada Pav">Vada Pav<br>
+		   <b><h4>Select your Agenda</h4></b><br>
+		  <input type="radio" name="ans_1DISEC" value="Agenda 1DISEC" checked>Agenda 1DISEC<br>
+		  <input type="radio" name="ans_1DISEC" value="Agenda 2DISEC">Agenda 2DISEC<br>
+		  <input type="radio" name="ans_1DISEC" value="Agenda 3DISEC">Agenda 3DISEC<br>
 			</div>
 			<br>
 			<br>
 		  <h3><b>White House Situation Room</b></h3>
 		  <div align="left">
-		  <b>Q1. Which is your favourite place?</b><br>
-		  <input type="radio" name="ansq1_1WHSR" value="Prague" checked>Prague<br>
-		  <input type="radio" name="ansq1_2WHSR" value="Venice">Venice<br>
-		  <input type="radio" name="ansq1_3WHSR" value="Prague">London<br>
-			<b>Q2. Who is your favourite hollywood actor?</b><br>
-		  <input type="radio" name="ansq2_1WHSR" value="Al Pacino" checked>Al Pacino<br>
-		  <input type="radio" name="ansq2_2WHSR" value="Robert Downey Jr.">Robert Downey Jr.<br>
-		  <input type="radio" name="ansq2_3WHSR" value="Bradley Cooper">Bradley Cooper<br>
-			<b>Q3. Which is your favourite street food?</b><br>
-		  <input type="radio" name="ansq3_1WHSR" value="Hot Dog" checked>Hot Dog<br>
-		  <input type="radio" name="ansq3_2WHSR" value="Bhel puri">Bhel Puri<br>
-		  <input type="radio" name="ansq3_3WHSR" value="Vada Pav">Vada Pav<br>
+		  <b><h4>Select your Agenda</h4></b><br>
+		  <input type="radio" name="ans_1WHSR" value="Agenda 1WHSW" checked>Agenda 1WHSW<br>
+		  <input type="radio" name="ans_1WHSR" value="Agenda 2WHSW">Agenda 2WHSW<br>
+		  <input type="radio" name="ans_1WHSR" value="Agenda 3WHSW">Agenda 3WHSW<br>
 			</div>
 			<br>
 			<br>
 			<h3><b>Security Council</b></h3>
 			<div align="left">
-		     <b>Q1. Which is your favourite place?</b><br>
-		      <input type="radio" name="ansq1_1SC" value="Prague" checked>Prague<br>
-		      <input type="radio" name="ansq1_2SC" value="Venice">Venice<br>
-		      <input type="radio" name="ansq1_3SC" value="Prague">London<br>
-			 <b>Q2. Who is your favourite hollywood actor?</b><br>
-		      <input type="radio" name="ansq2_1SC" value="Al Pacino" checked>Al Pacino<br>
-		      <input type="radio" name="ansq2_2SC" value="Robert Downey Jr.">Robert Downey Jr.<br>
-		      <input type="radio" name="ansq2_3SC" value="Bradley Cooper">Bradley Cooper<br>
-			 <b>Q3. Which is your favourite street food?</b><br>
-		      <input type="radio" name="ansq3_1SC" value="Hot Dog" checked>Hot Dog<br>
-		      <input type="radio" name="ansq3_2SC" value="Bhel puri">Bhel Puri<br>
-		      <input type="radio" name="ansq3_3SC" value="Vada Pav">Vada Pav<br>
+		     <b><h4>Select your Agenda</h4></b><br>
+		      <input type="radio" name="ans_1SC" value="Agenda 1SC" checked>Agenda 1SC<br>
+		      <input type="radio" name="ans_1SC" value="Agenda 2SC">Agenda 2SC<br>
+		      <input type="radio" name="ans_1SC" value="Agenda 3SC">Agenda 3SC<br>
 			 <br>
 			 <br>
 			</div>
 			<h3><b>International Press</b></h3>
 			<div align="left">
-			<b>Q1. Which is your favourite place?</b><br>
-			<input type="radio" name="ansq1_1IP" value="Prague" checked>Prague<br>
-			<input type="radio" name="ansq1_2IP" value="Venice">Venice<br>
-			<input type="radio" name="ansq1_3IP" value="Prague">London<br>
-			<b>Q2. Who is your favourite hollywood actor?</b><br>
-			<input type="radio" name="ansq2_1IP" value="Al Pacino" checked>Al Pacino<br>
-			<input type="radio" name="ansq2_2IP" value="Robert Downey Jr.">Robert Downey Jr.<br>
-			<input type="radio" name="ansq2_3IP" value="Bradley Cooper">Bradley Cooper<br>
-			<b>Q3. Which is your favourite street food?</b><br>
-			<input type="radio" name="ansq3_1IP" value="Hot Dog" checked>Hot Dog<br>
-			<input type="radio" name="ansq3_2IP" value="Bhel puri">Bhel Puri<br>
-			<input type="radio" name="ansq3_3IP" value="Vada Pav">Vada Pav<br>
+			<b><h4>Select your Agenda</h4></b><br>
+			<input type="radio" name="ansq1_1IP" value="Agenda 1IP" checked>Prague<br>
+			<input type="radio" name="ansq1_2IP" value="Agenda 2IP">Venice<br>
+			<input type="radio" name="ansq1_3IP" value="Agenda 3IP">London<br>
 			<br>
 			</div>
 			<div align="center" style="font-size: 20px;border-radius: 5px">
